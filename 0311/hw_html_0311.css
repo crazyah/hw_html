@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: cornflowerblue;
+}
+
+.nbth {
+  text-decoration: underline;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar-list-ul {
+  display: flex;
+}
+
+.fa-search {
+  color: rgba(255, 1, 1, .8);
+}
+
+.top-tel-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}

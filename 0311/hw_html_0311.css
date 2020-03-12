@@ -23,7 +23,26 @@ a {
 }
 
 .top-tel-btn {
+  background-color: darkgray;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
   position: fixed;
   right: 20px;
   bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-tel-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.fa-phone-alt {
+  width: 100%;
 }

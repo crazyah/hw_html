@@ -101,3 +101,37 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.product-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 939px;
+}
+
+.product-card-wrap {
+  display: flex;
+  align-items: center;
+  /* margin: 0 auto; */
+  background-color: #aaa;
+}
+
+.product-title {
+  display: flex;
+  /* margin: 0 auto; */
+  background-color: pink;
+  padding-left: 10px;
+  width: 50%;
+  /* justify-content: flex-end; */
+}
+
+.product-container {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.product-card {
+  margin: 0 10px;
+}

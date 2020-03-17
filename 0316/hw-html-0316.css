@@ -1,51 +1,3 @@
-.col-md-1 {
-  width: 8.333333%;
-}
-
-.col-md-2 {
-  width: 16.666666%;
-}
-
-.col-md-3 {
-  width: 25%;
-}
-
-.col-md-4 {
-  width: 33.333333%;
-}
-
-.col-md-5 {
-  width: 41.666666%;
-}
-
-.col-md-6 {
-  width: 50%;
-}
-
-.col-md-7 {
-  width: 58.333333%;
-}
-
-.col-md-8 {
-  width: 66.666666%;
-}
-
-.col-md-9 {
-  width: 75%;
-}
-
-.col-md-10 {
-  width: 83.333333%;
-}
-
-.col-md-11 {
-  width: 91.666666%;
-}
-
-.col-md-12 {
-  width: 100%;
-}
-
 .header-background {
   width: 100%;
   height: 70px;
@@ -175,12 +127,13 @@
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-card {
   box-sizing: border-box;
   padding: 10px;
-  /* width: 25%; */
 }
 
 .about-card a {
@@ -189,45 +142,88 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #aaa;
+  /* background-color: #aaa; */
+  padding: 10px;
+  max-width: 480px;
+}
+
+.course-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 70px;
+  box-sizing: border-box;
+}
+
+.course-card-wrap {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.course-card-pic img {
+  width: 100%;
+}
+
+.course-card {
+  padding: 15px;
+  box-sizing: border-box;
+  max-width: 448px;
+  /* background-color: #aaa; */
+  /* border: 2px solid red; */
+}
+
+.course-card a {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+
+.course-card-text {
   padding: 10px;
 }
 
 @media screen and (min-width:768px) {
-  .col-1 {
+  .col-md-1 {
     width: 8.333333%;
   }
-  .col-2 {
+  .col-md-2 {
     width: 16.666666%;
   }
-  .col-3 {
+  .col-md-3 {
     width: 25%;
   }
-  .col-4 {
+  .col-md-4 {
     width: 33.333333%;
   }
-  .col-5 {
+  .col-md-5 {
     width: 41.666666%;
   }
-  .col-6 {
+  .col-md-6 {
     width: 50%;
   }
-  .col-7 {
+  .col-md-7 {
     width: 58.333333%;
   }
-  .col-8 {
+  .col-md-8 {
     width: 66.666666%;
   }
-  .col-9 {
+  .col-md-9 {
     width: 75%;
   }
-  .col-10 {
+  .col-md-10 {
     width: 83.333333%;
   }
-  .col-11 {
+  .col-md-11 {
     width: 91.666666%;
   }
-  .col-12 {
+  .col-md-12 {
     width: 100%;
   }
 }

@@ -134,6 +134,8 @@
 .about-card {
   box-sizing: border-box;
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .about-card a {
@@ -187,6 +189,29 @@
 
 .course-card-text {
   padding: 10px;
+}
+
+.recommend-card-wrap {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 70px;
+}
+
+.recommend-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.recommend-card-text {
+  max-width: 615px;
+}
+
+.recommend-card-pic img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
 }
 
 @media screen and (min-width:768px) {

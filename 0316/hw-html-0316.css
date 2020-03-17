@@ -1,10 +1,69 @@
+.col-md-1 {
+  width: 8.333333%;
+}
+
+.col-md-2 {
+  width: 16.666666%;
+}
+
+.col-md-3 {
+  width: 25%;
+}
+
+.col-md-4 {
+  width: 33.333333%;
+}
+
+.col-md-5 {
+  width: 41.666666%;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.col-md-7 {
+  width: 58.333333%;
+}
+
+.col-md-8 {
+  width: 66.666666%;
+}
+
+.col-md-9 {
+  width: 75%;
+}
+
+.col-md-10 {
+  width: 83.333333%;
+}
+
+.col-md-11 {
+  width: 91.666666%;
+}
+
+.col-md-12 {
+  width: 100%;
+}
+
+.header-background {
+  width: 100%;
+  height: 70px;
+  position: relative;
+}
+
 .nav-bar-wrap {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
   padding: 0 20px;
   height: 70px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0 0 5px 0;
 }
 
 .navb-bar-list {
@@ -13,14 +72,21 @@
 
 .nav-bar-list ul {
   display: flex;
-  /* display: inline-block; */
-  /* vertical-align: middle; */
+}
+
+.nav-bar-list ul li {
+  padding: 15px;
 }
 
 .nav-bar {
   width: 100%;
+  /* height: 70px; */
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  /* top: 20px; */
+  /* background-color: rgb(255, 255, 255); */
 }
 
 .new-tag-span {
@@ -70,20 +136,192 @@
   background-color: rgb(255, 255, 255);
 }
 
-@media screen and (min-width:768px) {}
+.slideshow-wrap,
+.slideshow,
+.slideshow img {
+  width: 100%;
+}
 
-@media screen and (max-width:768px) {}
+.slideshow img {
+  vertical-align: bottom;
+}
+
+.title-and-color-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 48px 0;
+  width: 100%;
+  /* margin: 48px 0; */
+}
+
+.color-bar {
+  width: 80px;
+  height: 3px;
+  background-color: rgb(217, 8, 69);
+}
+
+.about-wrap {
+  width: 100%;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  padding: 0 80px 24px 80px;
+}
+
+.about-card-wrap {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  box-sizing: border-box;
+  padding: 10px;
+  /* width: 25%; */
+}
+
+.about-card a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #aaa;
+  padding: 10px;
+}
+
+@media screen and (min-width:768px) {
+  .col-1 {
+    width: 8.333333%;
+  }
+  .col-2 {
+    width: 16.666666%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.333333%;
+  }
+  .col-5 {
+    width: 41.666666%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.333333%;
+  }
+  .col-8 {
+    width: 66.666666%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.333333%;
+  }
+  .col-11 {
+    width: 91.666666%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:767px) {}
 
 @media screen and (min-width:992px) {
   .nav-bar-burger-wrap {
     display: none;
   }
-}
-
-@media screen and (max-width:992px) {
-  .nav-bar-list ul {
-    display: none;
+  .col-lg-1 {
+    width: 8.333333%;
+  }
+  .col-lg-2 {
+    width: 16.666666%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.333333%;
+  }
+  .col-lg-5 {
+    width: 41.666666%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.333333%;
+  }
+  .col-lg-8 {
+    width: 66.666666%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.333333%;
+  }
+  .col-lg-11 {
+    width: 91.666666%;
+  }
+  .col-lg-12 {
+    width: 100%;
   }
 }
 
-@media screen and (min-width:1200px) {}
+@media screen and (max-width:991px) {
+  .nav-bar-list ul {
+    display: none;
+  }
+  .nav-bar-wrap {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .col-xl-1 {
+    width: 8.333333%;
+  }
+  .col-xl-2 {
+    width: 16.666666%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.333333%;
+  }
+  .col-xl-5 {
+    width: 41.666666%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.333333%;
+  }
+  .col-xl-8 {
+    width: 66.666666%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.333333%;
+  }
+  .col-xl-11 {
+    width: 91.666666%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1199px) {}
